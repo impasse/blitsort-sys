@@ -1,0 +1,3 @@
+[submodule "blitsort"]
+	path = blitsort
+	url = https://github.com/scandum/blitsort.git
