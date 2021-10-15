@@ -2,6 +2,10 @@
 name = "blitsort-sys"
 version = "0.1.0"
 edition = "2018"
+description = "Rust FFI binding to blitsort"
+keywords= ["sort", "blitsort"]
+repository = "https://github.com/impasse/blitsort-sys"
+
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
