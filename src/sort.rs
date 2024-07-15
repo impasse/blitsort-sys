@@ -25,7 +25,7 @@ impl<T: Ord> BlitSort<T> for [T] {
                 }
             }
             blitsort(
-                self.as_ptr() as *mut c_void,
+                self.as_mut_ptr() as *mut c_void,
                 self.len(),
                 size_of::<T>(),
                 Some(cmp::<T>),
